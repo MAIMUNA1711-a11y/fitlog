@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@import "react-toastify/dist/ReactToastify.css";
+
+@theme {
+  --color-accent: #ccff00;
+  --color-ink: #0b0b0b;
+  --font-display: var(--font-oswald);
+  --font-sans: var(--font-inter);
+}
+
+body {
+  background: #0b0b0b;
+  color: #ffffff;
+  font-family: var(--font-sans), sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
