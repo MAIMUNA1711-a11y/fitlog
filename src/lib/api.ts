@@ -3,7 +3,7 @@ import { FALLBACK_WORKOUTS } from "./fallback-data";
 
 const API_BASE = "https://api.abcz.workers.dev/api/fitlog";
 
-// The live API's field names may vary, so we normalize whatever comes back.
+
 function normalize(raw: any, index: number): Workout {
   const category =
     raw.category ?? raw.categories ?? raw.tags ?? raw.muscle ?? raw.muscleGroups ?? [];
